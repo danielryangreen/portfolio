@@ -11,36 +11,36 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <!-- Responsive light-themed navbar that automatically collapses at the medium breakpoint. -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Dan Green</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
+    <header>
+      <!-- Responsive light-themed navbar that automatically collapses at the medium breakpoint. -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Dan Green</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <header class="container">
-      <h1>Portfolio</h1>
-      <hr>
+      </nav>
     </header>
 
-    <!-- Sizing the cards by using the grid with the row-cols class. Starts out stacked and becomes horizontal with 2 cards per row at the medium breakpoint. The advantage of this method is that the gutter class in the row provides top margin that is responsive. I could not get vertical gutter or margin between rows of cards to work responsively using the standard row and column grid layout. -->
     <section class="container">
+      <h1>Portfolio</h1>
+      <hr>
+
+      <!-- Sizing the cards by using the grid with the row-cols class. Starts out stacked and becomes horizontal with 2 cards per row at the medium breakpoint. The advantage of this method is that the gutter class in the row provides top margin that is responsive. I could not get vertical gutter or margin between rows of cards to work responsively using the standard row and column grid layout. -->
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <article class="card h-100">
