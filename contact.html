@@ -34,7 +34,29 @@
       </div>
     </nav>
 
-    <h1>Contact</h1>
+    <header class="container">
+      <h1>Contact</h1>
+      <hr>
+    </header>
+
+    <!-- Copied from getbootstrap.com and w3schools.com to create this contact form. Structure and presentation only. Need to add behavior. -->
+    <section class="container">
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
