@@ -12,9 +12,9 @@ View the code in your favorite text editor. I suggest VS Code.
 ## Usage
 Here is a mock-up of the site for mobile phone screens.
 
-![Home/About page](assets/images/400-index.png)
-![Portfolio page](assets/images/400-portfolio.png)
-![Contact page](assets/images/400-contact.png)
+![Home/About page](Assets/Images/400-index.png)
+![Portfolio page](Assets/Images/400-portfolio.png)
+![Contact page](Assets/Images/400-contact.png)
 ## Credits
 Built with [Bootstrap 5.0](https://getbootstrap.com/)
 
