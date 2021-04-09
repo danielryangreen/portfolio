@@ -4,7 +4,7 @@ Mobile responsive portfolio using the Bootstrap CSS Framework. The site contains
 
 Deployed at [GitHub Pages](https://danielryangreen.github.io/portfolio/).
 
-See the repo at [GitHub](https://github.com/danielryangreen/).
+See the repo at [GitHub](https://github.com/danielryangreen/portfolio).
 ## Installation
 Open __index.html__ in your favorite browser!
 
